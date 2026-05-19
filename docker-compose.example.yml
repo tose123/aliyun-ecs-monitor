@@ -1,0 +1,7 @@
+services:
+  aliyun-ecs-monitor:
+    image: ghcr.io/leechao/aliyun-ecs-monitor:latest
+    container_name: aliyun-ecs-monitor
+    volumes:
+      - ./config.yaml:/config.yaml:ro
+    restart: unless-stopped

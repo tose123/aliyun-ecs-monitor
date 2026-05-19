@@ -1,0 +1,10 @@
+access_key_id: test-access-key-id
+access_key_secret: test-access-key-secret
+poll_interval: 60s
+telegram:
+  bot_token: ""
+  chat_id: ""
+instances:
+  - region_id: cn-hangzhou
+    instance_ids:
+      - i-example123
