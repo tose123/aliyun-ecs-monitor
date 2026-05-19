@@ -1,1 +1,4 @@
 .sisyphus
+config.yaml
+docker-compose.yml
+docker-compose.yaml
